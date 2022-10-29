@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32602.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuitarMarket1", "GuitarMarket1\GuitarMarket1.csproj", "{2933C4BA-3AA1-4ED5-B22D-575D7769DFB1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2933C4BA-3AA1-4ED5-B22D-575D7769DFB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2933C4BA-3AA1-4ED5-B22D-575D7769DFB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2933C4BA-3AA1-4ED5-B22D-575D7769DFB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2933C4BA-3AA1-4ED5-B22D-575D7769DFB1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {66A88EDD-2D43-453F-A210-E090A3BEDD0B}
+	EndGlobalSection
+EndGlobal
