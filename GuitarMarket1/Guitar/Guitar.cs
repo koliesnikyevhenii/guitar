@@ -12,7 +12,7 @@ namespace GuitarMarket1.Models
         public string Brand { get; set; }
         public int AmountStrings { get; set; }
         public string Color { get; set; }
-        public bool Neckline { get; set; }//what is it
+        public bool Neckline { get; set; }
         public string ManufacturerСountry { get; set; }
         public float Price { get; set; }
 
