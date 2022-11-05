@@ -11,6 +11,23 @@ namespace GuitarMarket1.Repository
 {
     class MarketRepository : IRepository
     {
+        private static MarketRepository repository;
+
+        public static MarketRepository GetInstance()
+        {
+            if (repository == null)
+            {
+                Console.WriteLine("I am created ");
+                repository = new MarketRepository();
+                return repository;
+            }
+            Console.WriteLine("I am just created ");
+            return repository;
+        }
+        private MarketRepository()
+        {
+            
+        }
 
         private List<Guitar> _guitars = new List<Guitar>();
         public void CreateGuitar(Guitar guitar)

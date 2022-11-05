@@ -15,9 +15,14 @@ namespace GuitarMarket1
     {
         static void Main(string[] args)
         {
+            Console.OutputEncoding = Encoding.UTF8; 
             Random rnd = new Random();
-            IRepository GuitarsStore = new MarketRepository();
-           //Guitar test = GuitarsStore.GetGuitarByName("a15");
+            IRepository GuitarsStore =  MarketRepository.GetInstance();
+            GuitarsStore = MarketRepository.GetInstance();
+            GuitarsStore = MarketRepository.GetInstance();
+            //Guitar test = GuitarsStore.GetGuitarByName("a15");
+
+            Console.ReadKey();
 
             GuitarGenerator guitarGenerator = new GuitarGenerator();
 
